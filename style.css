@@ -117,7 +117,7 @@ header label {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../images/home.png) no-repeat;
+    background: url('images/home.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -240,7 +240,7 @@ header label {
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background:url(../images/subscribe-bg.png) no-repeat;
+    background:url('images/subscribe-bg.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
