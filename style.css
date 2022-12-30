@@ -117,7 +117,7 @@ header label {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('images/home.png') no-repeat;
+    background: url(images/home.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -160,8 +160,9 @@ header label {
     padding: 1.5rem 0 1rem 0;
 }
 
-.event{
+.event {
     min-height: 85vh;
+    background: #f9f9f9;
 }
 
 .event .box-container {
@@ -200,8 +201,9 @@ header label {
     padding-top: 1rem 0;
 }
 
-.about{
+.about {
     min-height: 90vh;
+    background: #fff;
 }
 
 .about .coloumn {
@@ -240,7 +242,7 @@ header label {
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background:url('images/subscribe-bg.png') no-repeat;
+    background:url(images/subscribe-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -295,8 +297,9 @@ header label {
     color:var(--pink);
 }
 
-.reviews{
-    min-height: 85vh;
+.reviews {
+    min-height: 80vh;
+    background: #fff;
 }
 
 .reviews .box-container{
@@ -353,6 +356,7 @@ header label {
 
 .pricing{
     min-height: 85vh;
+    background: #f9f9f9;
 }
 
 .pricing .box-container{
@@ -421,6 +425,7 @@ header label {
     flex-wrap: wrap;
     padding-bottom: 4rem;
     min-height: 85vh;
+    background: #fff;
 }
 
 .contact .image{
@@ -428,7 +433,8 @@ header label {
 }
 
 .contact .image img{
-    width:100%;
+    width:85%;
+    height: 85%;
     padding:2rem;
 }
 
